@@ -3,7 +3,7 @@ header {
   font: var(--text-md);
 }
 
-header .container{
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,6 +16,13 @@ header .container{
 
 #profile>div {
   max-width: 384px;
+}
+
+#profile img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 #profile h1 {
@@ -32,7 +39,7 @@ header .container{
   width: 280px;
 }
 
-#info li{
+#info li {
   display: flex;
   align-items: center;
   gap: 8px;
